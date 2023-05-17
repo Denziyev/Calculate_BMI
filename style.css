@@ -51,7 +51,6 @@ body{
     float: left;
     padding: 40px 50px;
     margin-top: 40px;
-   
 }
 
 .Tittle_Calculator{
@@ -71,11 +70,13 @@ body{
     font-size: 25px;
     color: white;
 }
-
-.inputs{
-    display: flex;
+.calculator_element{
     position: relative;
-    padding: 13px 10px 13px 30px;
+}
+
+.calculator_element>input{
+    display: flex;
+    padding: 13px 10px 13px 50px;
     border:1px solid rgb(129, 212, 250);
     outline: none;
     font-size: 25px;
@@ -88,6 +89,9 @@ body{
     word-spacing: 1px;
     box-shadow: rgba(129, 212, 250, 0.45) 0px 5px 15px;
     height: 55px;
+    border: none;
+    font-size: 20px;
+        
 }
 
 .inputp{
@@ -100,10 +104,12 @@ body{
 }
 
 
-.svgg{
-    position: absolute;
-    color: #81d4fa; 
-    background-color: red;
+
+
+
+.calculator_element>svg{
+    color: rgb(74, 198, 255,0.7);
+   position: absolute;
     font-size: 27px;
     left: 8px;
     margin-right: 20px;
