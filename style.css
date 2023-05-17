@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+};
+
+body{
+    font-family: 'Dancing Script', serif;
+}
+
+.navbar_container{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(129, 212, 250);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.left_navbar{
+    font-weight: bold;
+    font-size: 32px;
+    color: white;
+    margin: 20px;
+}
+
+.right_navbar{
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    padding: 40px;
+}
+
+.navbar_element{
+    margin-left: 40px;
+}
+.mainsection{
+    display: flex;
+}
+
+#img_health{
+    width: 600px;
+    margin-top: 40px;
+}
+
+.Calculate_div{
+    width: 53%;
+    float: left;
+    padding: 40px 50px;
+    margin-top: 40px;
+   
+}
+
+.Tittle_Calculator{
+    font-size: 40px;
+    margin-bottom: 30px;
+    color:#000000D9;
+}
+
+#CalculateBtn{
+    width: 100%;
+    height: 47px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: none;
+    text-align: center;
+    background-color: rgb(129, 212, 250);
+    font-weight: 800;
+    font-size: 25px;
+    color: white;
+}
+
+.inputs{
+    display: flex;
+    position: relative;
+    padding: 13px 10px 13px 30px;
+    border:1px solid rgb(129, 212, 250);
+    outline: none;
+    font-size: 25px;
+    width: 100%;
+    height: 100%;
+    line-height: 100%;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+    box-shadow: rgba(129, 212, 250, 0.45) 0px 5px 15px;
+    height: 55px;
+}
+
+.inputp{
+    font-size: 25px;
+    position: absolute;
+    z-index: 1000;
+    top:13px;
+    right: 15px;
+    color: rgb(140, 140, 140);
+}
+
+
+.svgg{
+    position: absolute;
+    color: #81d4fa; 
+    background-color: red;
+    font-size: 27px;
+    left: 8px;
+    margin-right: 20px;
+    top: 14px;
+}
+
+
+
+.footer-container{
+    padding: 5px 0px 30px;
+    width: 100%;
+    background-color: rgba(129, 212, 250, 0.6);
+    margin-top: auto;
+}
+
+.footer{
+    margin: 30px auto 0px;
+    text-align: center;
+    
+}
+.footer>a>svg{
+    color: rgba(0,0,0,0.8);
+}
+
+.icon-footer{
+    font-size: 40px;
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px 0 hsla(0,0%,100%,.82), 0 2px 16px 0 #fff;
+    color: rgba(0,0,0,.8);
+    font-size: 40px;
+    margin: 10px;
+    padding: 5px;
+}
+
+#last-icon{
+    text-decoration: none;
+    display: block;
+    font-size: 1.8rem;
+    margin-top: 15px;
+    color: rgba(0,0,0,0.4);
+    padding: 5px;
+}
+
+#last-icon>span{
+    font-size: 1.4rem;
+
+}
